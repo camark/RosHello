@@ -1,0 +1,17 @@
+<package>
+  <description brief="chapter2">
+
+     chapter2
+
+  </description>
+  <author>Ubuntu 16.04</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/chapter2</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
