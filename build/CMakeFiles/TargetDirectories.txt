@@ -3,6 +3,7 @@
 /home/gm/ros/chapter2/build/CMakeFiles/rebuild_cache.dir
 /home/gm/ros/chapter2/build/CMakeFiles/edit_cache.dir
 /home/gm/ros/chapter2/build/CMakeFiles/install/strip.dir
+/home/gm/ros/chapter2/build/CMakeFiles/example_publish.dir
 /home/gm/ros/chapter2/build/CMakeFiles/example_addsvr_a.dir
 /home/gm/ros/chapter2/build/CMakeFiles/example_b.dir
 /home/gm/ros/chapter2/build/CMakeFiles/rospack_gensrv_all.dir
@@ -23,6 +24,7 @@
 /home/gm/ros/chapter2/build/CMakeFiles/test-results.dir
 /home/gm/ros/chapter2/build/CMakeFiles/rosbuild_precompile.dir
 /home/gm/ros/chapter2/build/CMakeFiles/run_tests.dir
+/home/gm/ros/chapter2/build/CMakeFiles/example_subscribe.dir
 /home/gm/ros/chapter2/build/CMakeFiles/clean_test_results.dir
 /home/gm/ros/chapter2/build/CMakeFiles/install/local.dir
 /home/gm/ros/chapter2/build/CMakeFiles/_catkin_empty_exported_target.dir

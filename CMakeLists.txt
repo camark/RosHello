@@ -34,3 +34,6 @@ rosbuild_add_executable(example_b src/example_b.cpp)
 
 rosbuild_add_executable(example_addsvr_a src/exampleadd_svr_a.cpp)
 rosbuild_add_executable(example_addclient_a src/exampleadd_client_a.cpp.cpp)
+
+rosbuild_add_executable(example_publish src/exampleadd_publish_a.cpp)
+rosbuild_add_executable(example_subscribe src/exampleadd_subscribe_a.cpp)

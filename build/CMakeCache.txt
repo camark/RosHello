@@ -267,7 +267,7 @@ UBUNTU_XENIAL:BOOL=TRUE
 USERCONFIG:FILEPATH=USERCONFIG-NOTFOUND
 
 //Path to a file.
-_file_name:FILEPATH=/home/gm/ros/chapter2/src/exampleadd_client_a.cpp.cpp
+_file_name:FILEPATH=/home/gm/ros/chapter2/src/exampleadd_subscribe_a.cpp
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h

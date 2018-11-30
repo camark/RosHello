@@ -155,6 +155,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named example_publish
+
+# Build rule for target.
+example_publish: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_publish
+.PHONY : example_publish
+
+# fast build rule for target.
+example_publish/fast:
+	$(MAKE) -f CMakeFiles/example_publish.dir/build.make CMakeFiles/example_publish.dir/build
+.PHONY : example_publish/fast
+
+#=============================================================================
 # Target rules for targets named example_addsvr_a
 
 # Build rule for target.
@@ -415,6 +428,19 @@ run_tests/fast:
 .PHONY : run_tests/fast
 
 #=============================================================================
+# Target rules for targets named example_subscribe
+
+# Build rule for target.
+example_subscribe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_subscribe
+.PHONY : example_subscribe
+
+# fast build rule for target.
+example_subscribe/fast:
+	$(MAKE) -f CMakeFiles/example_subscribe.dir/build.make CMakeFiles/example_subscribe.dir/build
+.PHONY : example_subscribe/fast
+
+#=============================================================================
 # Target rules for targets named clean_test_results
 
 # Build rule for target.
@@ -651,6 +677,60 @@ src/exampleadd_client_a.cpp.cpp.s:
 	$(MAKE) -f CMakeFiles/example_addclient_a.dir/build.make CMakeFiles/example_addclient_a.dir/src/exampleadd_client_a.cpp.cpp.s
 .PHONY : src/exampleadd_client_a.cpp.cpp.s
 
+src/exampleadd_publish_a.o: src/exampleadd_publish_a.cpp.o
+
+.PHONY : src/exampleadd_publish_a.o
+
+# target to build an object file
+src/exampleadd_publish_a.cpp.o:
+	$(MAKE) -f CMakeFiles/example_publish.dir/build.make CMakeFiles/example_publish.dir/src/exampleadd_publish_a.cpp.o
+.PHONY : src/exampleadd_publish_a.cpp.o
+
+src/exampleadd_publish_a.i: src/exampleadd_publish_a.cpp.i
+
+.PHONY : src/exampleadd_publish_a.i
+
+# target to preprocess a source file
+src/exampleadd_publish_a.cpp.i:
+	$(MAKE) -f CMakeFiles/example_publish.dir/build.make CMakeFiles/example_publish.dir/src/exampleadd_publish_a.cpp.i
+.PHONY : src/exampleadd_publish_a.cpp.i
+
+src/exampleadd_publish_a.s: src/exampleadd_publish_a.cpp.s
+
+.PHONY : src/exampleadd_publish_a.s
+
+# target to generate assembly for a file
+src/exampleadd_publish_a.cpp.s:
+	$(MAKE) -f CMakeFiles/example_publish.dir/build.make CMakeFiles/example_publish.dir/src/exampleadd_publish_a.cpp.s
+.PHONY : src/exampleadd_publish_a.cpp.s
+
+src/exampleadd_subscribe_a.o: src/exampleadd_subscribe_a.cpp.o
+
+.PHONY : src/exampleadd_subscribe_a.o
+
+# target to build an object file
+src/exampleadd_subscribe_a.cpp.o:
+	$(MAKE) -f CMakeFiles/example_subscribe.dir/build.make CMakeFiles/example_subscribe.dir/src/exampleadd_subscribe_a.cpp.o
+.PHONY : src/exampleadd_subscribe_a.cpp.o
+
+src/exampleadd_subscribe_a.i: src/exampleadd_subscribe_a.cpp.i
+
+.PHONY : src/exampleadd_subscribe_a.i
+
+# target to preprocess a source file
+src/exampleadd_subscribe_a.cpp.i:
+	$(MAKE) -f CMakeFiles/example_subscribe.dir/build.make CMakeFiles/example_subscribe.dir/src/exampleadd_subscribe_a.cpp.i
+.PHONY : src/exampleadd_subscribe_a.cpp.i
+
+src/exampleadd_subscribe_a.s: src/exampleadd_subscribe_a.cpp.s
+
+.PHONY : src/exampleadd_subscribe_a.s
+
+# target to generate assembly for a file
+src/exampleadd_subscribe_a.cpp.s:
+	$(MAKE) -f CMakeFiles/example_subscribe.dir/build.make CMakeFiles/example_subscribe.dir/src/exampleadd_subscribe_a.cpp.s
+.PHONY : src/exampleadd_subscribe_a.cpp.s
+
 src/exampleadd_svr_a.o: src/exampleadd_svr_a.cpp.o
 
 .PHONY : src/exampleadd_svr_a.o
@@ -689,6 +769,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... install/strip"
+	@echo "... example_publish"
 	@echo "... example_addsvr_a"
 	@echo "... example_b"
 	@echo "... rospack_gensrv_all"
@@ -709,6 +790,7 @@ help:
 	@echo "... test-results"
 	@echo "... rosbuild_precompile"
 	@echo "... run_tests"
+	@echo "... example_subscribe"
 	@echo "... clean_test_results"
 	@echo "... install/local"
 	@echo "... _catkin_empty_exported_target"
@@ -731,6 +813,12 @@ help:
 	@echo "... src/exampleadd_client_a.cpp.o"
 	@echo "... src/exampleadd_client_a.cpp.i"
 	@echo "... src/exampleadd_client_a.cpp.s"
+	@echo "... src/exampleadd_publish_a.o"
+	@echo "... src/exampleadd_publish_a.i"
+	@echo "... src/exampleadd_publish_a.s"
+	@echo "... src/exampleadd_subscribe_a.o"
+	@echo "... src/exampleadd_subscribe_a.i"
+	@echo "... src/exampleadd_subscribe_a.s"
 	@echo "... src/exampleadd_svr_a.o"
 	@echo "... src/exampleadd_svr_a.i"
 	@echo "... src/exampleadd_svr_a.s"

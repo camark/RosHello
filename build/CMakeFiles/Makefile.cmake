@@ -159,6 +159,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/example_publish.dir/DependInfo.cmake"
   "CMakeFiles/example_addsvr_a.dir/DependInfo.cmake"
   "CMakeFiles/example_b.dir/DependInfo.cmake"
   "CMakeFiles/rospack_gensrv_all.dir/DependInfo.cmake"
@@ -179,6 +180,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test-results.dir/DependInfo.cmake"
   "CMakeFiles/rosbuild_precompile.dir/DependInfo.cmake"
   "CMakeFiles/run_tests.dir/DependInfo.cmake"
+  "CMakeFiles/example_subscribe.dir/DependInfo.cmake"
   "CMakeFiles/clean_test_results.dir/DependInfo.cmake"
   "CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake"
